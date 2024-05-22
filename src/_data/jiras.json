@@ -36,7 +36,7 @@
       "titular": "Actualización de Usuarios",
       "subtitulo": "INTEGRACIÓN",
       "descripcion": "Permite la actualización masiva de datos de usuario desde una fuente externa.",
-      "imagen": "https://example.com/image1.jpg",
+      "imagen": "https://picsum.photos/200/100",
       "entrega_web": "10 de abril",
       "entrega_ios": "15 de abril",
       "entrega_android": "20 de abril",
@@ -72,13 +72,31 @@
           "apellido": "Hernández",
           "url": "https://example.com/maria"
         }
+      ],
+      "responsables": [
+        {
+          "nombre": "Carlos",
+          "apellido": "Gómez",
+          "url": "https://example.com/carlos"
+        },
+        {
+          "nombre": "Laura",
+          "apellido": "Martínez",
+          "url": "https://example.com/laura"
+        },
+        {
+          "nombre": "Luis",
+          "apellido": "Pérez",
+          "url": "https://example.com/luis"
+        }
+     
       ]
     },
     {
       "titular": "Sistema de Pago",
       "subtitulo": "IMPLEMENTACIÓN",
       "descripcion": "Integración de un nuevo sistema de pago seguro y eficiente.",
-      "imagen": "https://example.com/image2.jpg",
+      "imagen": "https://picsum.photos/200/100",
       "entrega_web": "5 de mayo",
       "entrega_ios": "10 de mayo",
       "entrega_android": "15 de mayo",
@@ -120,7 +138,7 @@
       "titular": "Optimización de Búsqueda",
       "subtitulo": "MEJORA",
       "descripcion": "Implementación de algoritmos avanzados para mejorar los resultados de búsqueda.",
-      "imagen": "https://example.com/image3.jpg",
+      "imagen": "https://picsum.photos/200/100",
       "entrega_web": "15 de junio",
       "entrega_ios": "20 de junio",
       "entrega_android": "25 de junio",
@@ -162,7 +180,7 @@
       "titular": "Notificaciones en Tiempo Real",
       "subtitulo": "DESARROLLO",
       "descripcion": "Sistema de notificaciones en tiempo real para mejorar la comunicación con los usuarios.",
-      "imagen": "https://example.com/image4.jpg",
+      "imagen": "https://picsum.photos/200/100",
       "entrega_web": "1 de julio",
       "entrega_ios": "5 de julio",
       "entrega_android": "10 de julio",
@@ -204,7 +222,7 @@
       "titular": "Gestión de Inventarios",
       "subtitulo": "OPTIMIZACIÓN",
       "descripcion": "Mejora de la gestión de inventarios para reducir costos y mejorar la eficiencia.",
-      "imagen": "https://example.com/image5.jpg",
+      "imagen": "https://picsum.photos/200/100",
       "entrega_web": "20 de agosto",
       "entrega_ios": "25 de agosto",
       "entrega_android": "30 de agosto",
@@ -246,7 +264,7 @@
       "titular": "Soporte Multilenguaje",
       "subtitulo": "INNOVACIÓN",
       "descripcion": "Incorporación de soporte multilenguaje para alcanzar una audiencia global.",
-      "imagen": "https://example.com/image6.jpg",
+      "imagen": "https://picsum.photos/200/100",
       "entrega_web": "10 de septiembre",
       "entrega_ios": "15 de septiembre",
       "entrega_android": "20 de septiembre",
