@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="canonical" href="https://{{ global.url }}{{ page.url | url }}" />
-  <link rel="icon" type="image/png" href="/assets/static/favicons/favicon_32x32.png" />
+  <link rel="icon" type="image/png" href="/assets/static/favicons/" />
 
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link rel="preconnect" href="https://code.jquery.com/" />
@@ -47,28 +47,22 @@
       "name": "Check QR Pay",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://duttijiras.com/assets/static/favicons/favicon_32x32.png"
+        "url": "https://duttijiras.com/assets/static/favicons/"
       }
     },
     "image": {
       "@type": "ImageObject",
-      "url": "https://duttijiras.com/assets/static/favicons/favicon_192x192.png"
+      "url": "https://duttijiras.com/assets/static/favicons/"
     },
     "primaryImageOfPage": {
       "@type": "ImageObject",
-      "url": "https://duttijiras.com/assets/static/favicons/favicon_512x512.png"
+      "url": "https://duttijiras.com/assets/static/favicons/"
     }
   }
   </script>
 
   <!-- Google Tag Manager -->
-  <script>
-    (function(w,d,s,l,i){
-      w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-      var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:''; 
-      j.async=true; j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl; f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-57XFVMK');
-  </script>
+
   <!-- End Google Tag Manager -->
 
   <style>
@@ -89,8 +83,7 @@
 
 <body class="contain {% if page.url == '/'%}home{% endif %}">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57XFVMK" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+
   <!-- End Google Tag Manager (noscript) -->
   {% set breadcrumbs = [] %}
   {% include 'components/header.njk' %}
@@ -103,30 +96,8 @@
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script type="module" src="/assets/js/index.js"></script>
   <script type="module" src="/assets/js/inview.js"></script>
-  <script>
-    const handleSubmit = (event) => {
-      event.preventDefault();
-      const myForm = event.target;
-      const formData = new FormData(myForm);
-      fetch("/", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded"
-        },
-        body: new URLSearchParams(formData).toString()
-      })
-        .then(() => console.log("Form successfully submitted"))
-        .catch((error) => alert(error));
-    };
-  </script>
-  <!-- Meta Pixel Event Code -->
-  <script type="text/javascript">
-    document.addEventListener('wpcf7mailsent', function (event) {
-      if ("fb_pxl_code" in event.detail.apiResponse) {
-        eval(event.detail.apiResponse.fb_pxl_code);
-      }
-    }, false);
-  </script>
+
+
   <!-- End Meta Pixel Event Code -->
   <link async rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 </body>
