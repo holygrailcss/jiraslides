@@ -27,8 +27,8 @@
       "imagen": "/assets/static/images/restaurantes/calambrito.jpg"
     },
     {
-      "nombre": "flordegrana",
-      "imagen": "/assets/static/images/restaurantes/flordegrana.jpg"
+      "nombre": "flordegrlink4",
+      "imagen": "/assets/static/images/restaurantes/flordegrlink4.jpg"
     }
   ],
   "elementos": [
@@ -43,51 +43,46 @@
       "golive": "25 de abril",
       "links": [
         {
-          "nombre": "Carlos",
+          "nombre": "link1",
           "apellido": "Gómez",
-          "url": "https://example.com/carlos"
+          "url": "https://example.com/link1"
         },
         {
-          "nombre": "Laura",
+          "nombre": "link2",
           "apellido": "Martínez",
-          "url": "https://example.com/laura"
+          "url": "https://example.com/link2"
         },
         {
-          "nombre": "Luis",
+          "nombre": "link3",
           "apellido": "Pérez",
-          "url": "https://example.com/luis"
+          "url": "https://example.com/link3"
         },
         {
-          "nombre": "Ana",
+          "nombre": "link4",
           "apellido": "García",
-          "url": "https://example.com/ana"
+          "url": "https://example.com/link4"
         },
         {
-          "nombre": "Miguel",
+          "nombre": "link5",
           "apellido": "Rodríguez",
-          "url": "https://example.com/miguel"
-        },
-        {
-          "nombre": "María",
-          "apellido": "Hernández",
-          "url": "https://example.com/maria"
+          "url": "https://example.com/link5"
         }
       ],
       "responsables": [
         {
-          "nombre": "Carlos",
+          "nombre": "link1",
           "apellido": "Gómez",
-          "url": "https://example.com/carlos"
+          "url": "https://example.com/link1"
         },
         {
-          "nombre": "Laura",
+          "nombre": "link2",
           "apellido": "Martínez",
-          "url": "https://example.com/laura"
+          "url": "https://example.com/link2"
         },
         {
-          "nombre": "Luis",
+          "nombre": "link3",
           "apellido": "Pérez",
-          "url": "https://example.com/luis"
+          "url": "https://example.com/link3"
         }
      
       ]
